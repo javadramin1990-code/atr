@@ -3,18 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>محصولات روزانه</title>
+<title>نصف شیشه با جعبه</title>
 <style>
-  body { font-family: Tahoma, sans-serif; background: #f9f9f9; margin: 0; padding: 0; }
-  header { background: #222; color: #fff; text-align: center; padding: 20px; }
-  header h1 { margin: 0; font-size: 28px; }
-  .products { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; gap: 20px; }
-  .product-card { background: #fff; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); width: 200px; padding: 15px; text-align: center; }
-  .product-card img { width: 100%; border-radius: 6px; }
-  .product-card h2 { font-size: 18px; margin: 10px 0 5px 0; }
-  .product-card p { font-size: 14px; margin: 5px 0; color: #555; }
-  .product-card .price { font-weight: bold; color: #222; margin-top: 10px; }
-  footer { text-align: center; padding: 15px; background: #222; color: #fff; font-size: 14px; }
+body { font-family: Tahoma, sans-serif; background: #f9f9f9; margin:0; padding:0;}
+header { background:#222; color:#fff; text-align:center; padding:20px;}
+header h1{ margin:0; font-size:28px; }
+.products { display:flex; flex-wrap:wrap; justify-content:center; padding:20px; gap:20px;}
+.product-card { background:#fff; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); width:200px; padding:15px; text-align:center;}
+.product-card img { width:100%; border-radius:6px;}
+.product-card h2 { font-size:18px; margin:10px 0 5px 0;}
+.product-card p { font-size:14px; margin:5px 0; color:#555;}
+.product-card .price { font-weight:bold; color:#222; margin-top:10px;}
+.product-card a { display:inline-block; margin-top:10px; padding:6px 10px; background:#007bff; color:#fff; text-decoration:none; border-radius:4px;}
+.product-card a:hover { background:#0056b3;}
+footer { text-align:center; padding:15px; background:#222; color:#fff; font-size:14px;}
 </style>
 </head>
 <body>
@@ -25,94 +27,72 @@
 </header>
 
 <main>
-  <div class="products">
-
-    <!-- محصول 1 -->
-    <div class="product-card">
-      <img src="images/product1.jpg" alt="نام محصول 1">
-      <h2>نام محصول 1</h2>
-      <p>توضیح کوتاه محصول 1</p>
-      <div class="price">قیمت: 100,000 تومان</div>
-    </div>
-
-    <!-- محصول 2 -->
-    <div class="product-card">
-      <img src="images/product2.jpg" alt="نام محصول 2">
-      <h2>نام محصول 2</h2>
-      <p>توضیح کوتاه محصول 2</p>
-      <div class="price">قیمت: 120,000 تومان</div>
-    </div>
-
-    <!-- محصول 3 -->
-    <div class="product-card">
-      <img src="images/product3.jpg" alt="نام محصول 3">
-      <h2>نام محصول 3</h2>
-      <p>توضیح کوتاه محصول 3</p>
-      <div class="price">قیمت: 90,000 تومان</div>
-    </div>
-
-    <!-- محصول 4 -->
-    <div class="product-card">
-      <img src="images/product4.jpg" alt="نام محصول 4">
-      <h2>نام محصول 4</h2>
-      <p>توضیح کوتاه محصول 4</p>
-      <div class="price">قیمت: 110,000 تومان</div>
-    </div>
-
-    <!-- محصول 5 -->
-    <div class="product-card">
-      <img src="images/product5.jpg" alt="نام محصول 5">
-      <h2>نام محصول 5</h2>
-      <p>توضیح کوتاه محصول 5</p>
-      <div class="price">قیمت: 95,000 تومان</div>
-    </div>
-
-    <!-- محصول 6 -->
-    <div class="product-card">
-      <img src="images/product6.jpg" alt="نام محصول 6">
-      <h2>نام محصول 6</h2>
-      <p>توضیح کوتاه محصول 6</p>
-      <div class="price">قیمت: 130,000 تومان</div>
-    </div>
-
-    <!-- محصول 7 -->
-    <div class="product-card">
-      <img src="images/product7.jpg" alt="نام محصول 7">
-      <h2>نام محصول 7</h2>
-      <p>توضیح کوتاه محصول 7</p>
-      <div class="price">قیمت: 85,000 تومان</div>
-    </div>
-
-    <!-- محصول 8 -->
-    <div class="product-card">
-      <img src="images/product8.jpg" alt="نام محصول 8">
-      <h2>نام محصول 8</h2>
-      <p>توضیح کوتاه محصول 8</p>
-      <div class="price">قیمت: 150,000 تومان</div>
-    </div>
-
-    <!-- محصول 9 -->
-    <div class="product-card">
-      <img src="images/product9.jpg" alt="نام محصول 9">
-      <h2>نام محصول 9</h2>
-      <p>توضیح کوتاه محصول 9</p>
-      <div class="price">قیمت: 140,000 تومان</div>
-    </div>
-
-    <!-- محصول 10 -->
-    <div class="product-card">
-      <img src="images/product10.jpg" alt="نام محصول 10">
-      <h2>نام محصول 10</h2>
-      <p>توضیح کوتاه محصول 10</p>
-      <div class="price">قیمت: 125,000 تومان</div>
-    </div>
-
-  </div>
+  <div class="products"></div>
 </main>
 
 <footer>
-  © 2026 برند شما | تماس: 0912xxxxxxx
+  © 2026 atramin | تماس: 09120045691
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/tabletop@1.6.0/src/tabletop.min.js"></script>
+<script>
+window.addEventListener('DOMContentLoaded', init);
+
+function init() {
+  Tabletop.init({
+    key: '1nqP6-IIgztZ7FFQCQa0EERRcwa32BH0VmQzg4J6sBKk', // اینجا Spreadsheet ID رو بذار
+    callback: showProducts,
+    simpleSheet: true
+  });
+}
+
+function showProducts(data) {
+  const container = document.querySelector('.products');
+  container.innerHTML = '';
+  data.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'product-card';
+    card.innerHTML = `
+      <img src="${item['لینک عکس']}" alt="${item['نام محصول']}">
+      <h2>${item['نام محصول']}</h2>
+      <p>${item['توضیح کوتاه']}</p>
+      <div class="price">قیمت: ${item['قیمت']} تومان</div>
+      <a href="${item['لینک ثبت سفارش']}" target="_blank">سفارش محصول</a>
+    `;
+    container.appendChild(card);
+  });
+}
+</script>
+
+</body>
+  <script>
+window.addEventListener('DOMContentLoaded', init);
+
+function init() {
+  Tabletop.init({
+    key: 'SPREADSHEET_ID', // اینجا Spreadsheet ID رو بذار
+    callback: showProducts,
+    simpleSheet: true
+  });
+}
+
+function showProducts(data) {
+  const container = document.querySelector('.products');
+  container.innerHTML = ''; // پاک کردن محتوای قبلی
+
+  data.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'product-card';
+    card.innerHTML = `
+      <img src="${item['لینک عکس']}" alt="${item['نام محصول']}">
+      <h2>${item['نام محصول']}</h2>
+      <p>${item['توضیح کوتاه']}</p>
+      <div class="price">قیمت: ${item['قیمت']} تومان</div>
+      <a href="${item['لینک ثبت سفارش']}" target="_blank">سفارش محصول</a>
+    `;
+    container.appendChild(card);
+  });
+}
+</script>
 </body>
 </html>
